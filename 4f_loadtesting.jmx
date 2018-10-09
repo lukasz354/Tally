@@ -37,6 +37,11 @@
             <stringProp name="Argument.value">2000</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="Ramp" elementType="Argument">
+            <stringProp name="Argument.name">Ramp</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </elementProp>
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
@@ -92,7 +97,7 @@
           <stringProp name="LoopController.loops">${Count}</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">${Users}</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">6</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${Ramp}</stringProp>
         <longProp name="ThreadGroup.start_time">1519736279000</longProp>
         <longProp name="ThreadGroup.end_time">1519736279000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
@@ -128,7 +133,7 @@
           <stringProp name="LoopController.loops">${Count}</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">${Users}</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">6</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${Ramp}</stringProp>
         <longProp name="ThreadGroup.start_time">1519736279000</longProp>
         <longProp name="ThreadGroup.end_time">1519736279000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
@@ -164,7 +169,7 @@
           <stringProp name="LoopController.loops">${Count}</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">${Users}</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${Ramp}</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
@@ -198,7 +203,7 @@
           <stringProp name="LoopController.loops">${Count}</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">${Users}</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${Ramp}</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
