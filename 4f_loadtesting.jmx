@@ -3,7 +3,7 @@
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="4F" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
-      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.functional_mode">true</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="Zmienne zdefiniowane przez użytkownika" enabled="true">
         <collectionProp name="Arguments.arguments">
@@ -14,17 +14,17 @@
           </elementProp>
           <elementProp name="Count" elementType="Argument">
             <stringProp name="Argument.name">Count</stringProp>
-            <stringProp name="Argument.value">10</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="Product_listing" elementType="Argument">
             <stringProp name="Argument.name">Product_listing</stringProp>
-            <stringProp name="Argument.value">bagaz.html?asd=qwe</stringProp>
+            <stringProp name="Argument.value">bagaz.html?aod=qwe</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="Product_cart" elementType="Argument">
             <stringProp name="Argument.name">Product_cart</stringProp>
-            <stringProp name="Argument.value">etui-na-legitymacje-szkolna-jaks210-multikolor-1671-143269.html?asd=qwe</stringProp>
+            <stringProp name="Argument.value">etui-na-legitymacje-szkolna-jaks210-multikolor-1671-143269.html?asd=qwa</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="Thread_delay" elementType="Argument">
@@ -34,7 +34,7 @@
           </elementProp>
           <elementProp name="Users" elementType="Argument">
             <stringProp name="Argument.name">Users</stringProp>
-            <stringProp name="Argument.value">200</stringProp>
+            <stringProp name="Argument.value">1000</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -108,7 +108,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path"></stringProp>
+          <stringProp name="HTTPSampler.path">?asd=qwe</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
