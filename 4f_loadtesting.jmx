@@ -14,7 +14,7 @@
           </elementProp>
           <elementProp name="Count" elementType="Argument">
             <stringProp name="Argument.name">Count</stringProp>
-            <stringProp name="Argument.value">5</stringProp>
+            <stringProp name="Argument.value">10</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="Product_listing" elementType="Argument">
@@ -34,7 +34,7 @@
           </elementProp>
           <elementProp name="Users" elementType="Argument">
             <stringProp name="Argument.name">Users</stringProp>
-            <stringProp name="Argument.value">75</stringProp>
+            <stringProp name="Argument.value">200</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -82,7 +82,7 @@
           <stringProp name="LoopController.loops">${Count}</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">${Users}</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">15</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">60</stringProp>
         <longProp name="ThreadGroup.start_time">1519736279000</longProp>
         <longProp name="ThreadGroup.end_time">1519736279000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
