@@ -34,7 +34,7 @@
           </elementProp>
           <elementProp name="Users" elementType="Argument">
             <stringProp name="Argument.name">Users</stringProp>
-            <stringProp name="Argument.value">20</stringProp>
+            <stringProp name="Argument.value">50</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="Ramp" elementType="Argument">
