@@ -171,7 +171,7 @@
       <com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroup guiclass="com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroupGui" testclass="com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroup" testname="bzm - Concurrency Thread Group" enabled="true">
         <elementProp name="ThreadGroup.main_controller" elementType="com.blazemeter.jmeter.control.VirtualUserController"/>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <stringProp name="TargetLevel">${Tc}</stringProp>
+        <stringProp name="TargetLevel">1</stringProp>
         <stringProp name="RampUp">${RUP}</stringProp>
         <stringProp name="Steps">${RUS}</stringProp>
         <stringProp name="Hold"></stringProp>
